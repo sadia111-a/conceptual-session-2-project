@@ -208,7 +208,7 @@ padding: 20px 0;
 }
 /* -----discount part ends here------ */
 .review-container{
-    border: 1px solid red;
+    gap: 10px;
     min-height: 200px;
     margin-top: 50px;
     display: flex;
@@ -218,7 +218,7 @@ padding: 20px 0;
 
 }
 .single-review{
-    border: 1px solid blue;
+   
     flex-basis: 300px;
     background-color: #e893cf;
     border-radius: 5px;
