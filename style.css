@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Poppins:wght@500;600;700&family=Rubik:wght@300&family=Space+Mono:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;1,300&family=Work+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* ---------nav section starts here-------- */
+nav{
+  background-color: #9376e0;
+}
+.nav-container {
+    border: 1px solid red;
+    display: flex;
+    max-width: 1200px;
+   margin: 0 auto;
+    align-items: center;
+
+}
+.logo-container{
+    border: 1px solid blue;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.logo-container p{
+    font-size: 30px;
+    color: white;
+}
+.logo-container .hive{
+    color: #e893cf;
+}
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+}
+.nav-items-container{
+    border: 1px solid green;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.login-btn{
+    background-color:#e893cf ;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+}
+.nav-items-container .login-btn{
+    color: black;
+    font-weight: 700;
+}
+/* ---------nav section ends here-------- */
