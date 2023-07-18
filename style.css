@@ -124,3 +124,50 @@ width: 50%;
 
 
 /*-------------- banner part ends here------------ */
+/* ---------products part starts here */
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    max-width: 1200px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    gap: 10px;
+}
+.single-product{
+    /* width: 80%; */
+    
+    background-color: #e6e9eb;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    padding: 0 10px;
+}
+.single-product img{
+    width: 100%;
+   display: block;
+   margin: 0 auto;
+}
+.product-icon-name-container{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.product-icon-name-container span{
+    background-color: #9376e0;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 2px;
+    color: white;
+
+}
+
+
+
+
+
+
+/* ---------products part ends here */
