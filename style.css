@@ -7,57 +7,94 @@ body {
 * {
     box-sizing: border-box;
 }
+
 /* ---------nav section starts here-------- */
-nav{
-  background-color: #9376e0;
+nav {
+    background-color: #9376e0;
 }
+
 .nav-container {
-    
+
     display: flex;
     max-width: 1200px;
-   margin: 0 auto;
+    margin: 0 auto;
     align-items: center;
 
 }
-.logo-container{
-    
+
+.logo-container {
+
     width: 50%;
     display: flex;
     align-items: center;
     margin-right: 10px;
 }
-.logo-container p{
+
+.logo-container p {
     font-size: 30px;
     color: white;
 }
-.logo-container .hive{
+
+.logo-container .hive {
     color: #e893cf;
 }
-.logo-container img{
+
+.logo-container img {
     width: 50px;
     object-fit: cover;
 }
-.nav-items-container{
-   
+
+.nav-items-container {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-items-container a{
+
+.nav-items-container a {
     text-decoration: none;
     font-size: 25px;
     color: white;
 }
-.login-btn{
-    background-color:#e893cf ;
+
+.login-btn {
+    background-color: #e893cf;
     padding: 10px 20px;
     border-radius: 5px;
-   
+
 }
-.nav-items-container .login-btn{
+
+.nav-items-container .login-btn {
     color: black;
     font-weight: 700;
 }
+
 /* ---------nav section ends here-------- */
 
+/*--------- banner part starts here-----------*/
+.banner-container{
+ border: 1px solid red;
+ margin: 50px auto 0;
+ max-width: 1200px;
+ min-height: 100px;
+ display: flex;
+}
+.banner-text{
+width: 50%;
+border: 1px solid red;
+}
+.banner-img{
+width: 50%;
+border: 1px solid red;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*-------------- banner part ends here------------ */
