@@ -207,3 +207,33 @@ padding: 20px 0;
     
 }
 /* -----discount part ends here------ */
+.review-container{
+    border: 1px solid red;
+    min-height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+.single-review{
+    border: 1px solid blue;
+    flex-basis: 300px;
+    background-color: #e893cf;
+    border-radius: 5px;
+padding: 5px;
+   
+}
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+
+.top-review{
+  
+   align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
