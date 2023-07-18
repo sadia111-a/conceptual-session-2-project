@@ -164,10 +164,46 @@ width: 50%;
     color: white;
 
 }
-
-
-
-
-
-
 /* ---------products part ends here */
+
+/* -----discount part starts here------ */
+.discount-section{
+background-color: #9376e0;
+padding: 20px 0;
+}
+.discount-container{
+    display: flex;
+    align-items: center;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.discount-image{
+    width:50% ;
+    
+    position: relative;
+}
+.discount-image img{
+    width: 70%;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+.discount-number{
+    height: 60px;
+    width: 60px;
+    background-color: bisque;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+.discount-text{
+    width:50% ;
+    
+}
+/* -----discount part ends here------ */
