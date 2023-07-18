@@ -12,7 +12,7 @@ nav{
   background-color: #9376e0;
 }
 .nav-container {
-    border: 1px solid red;
+    
     display: flex;
     max-width: 1200px;
    margin: 0 auto;
@@ -20,7 +20,7 @@ nav{
 
 }
 .logo-container{
-    border: 1px solid blue;
+    
     width: 50%;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ nav{
     object-fit: cover;
 }
 .nav-items-container{
-    border: 1px solid green;
+   
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -60,3 +60,4 @@ nav{
     font-weight: 700;
 }
 /* ---------nav section ends here-------- */
+
